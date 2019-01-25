@@ -1,0 +1,26 @@
+{
+  "name": "the-vision",
+  "version": "1.0.0",
+  "description": "Copywriting Agency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/rixutti/the-vision"
+  },
+  "keywords": [
+    "Copywriting",
+    "Web",
+    "design",
+    "Sales"
+  ],
+  "author": "Riku Vakkuri",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}

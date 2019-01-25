@@ -1,0 +1,115 @@
+.w3-bar {
+       padding-top:0px !important; padding-bottom:0px !important;
+       max-height:200px !important;
+
+       background: rgba(79,132,196,0.5);
+}
+
+
+
+
+.topnav-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.topnav-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    font-size: 140%;
+  }
+
+.background-image-1 {
+    background-image: url("bananabag.jpg");
+    min-height: 100%;
+}
+  
+.background-image-2 {
+    background-image: url("aallonmurtaja.jpg");
+    min-height: 400px;
+}
+  
+.background-image-3 {
+    background-image: url("tuiranbiitsi.jpg");
+    min-height: 100%;
+}
+
+
+.background-image-1, .background-image-2 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    image-rendering: auto;
+}
+
+.background-image-3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    image-rendering: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color:black;
+}
+
+.boxed {
+    background-color: lightsteelblue;
+    width: 800px;
+    height: 300px;
+    margin-left: 100px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0.1;
+    overflow-y: scroll;
+}
+
+
+
+
+.teksti2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 100em;
+  margin-right: 100em;
+}
+    
+
+
+.header {
+    margin-left: 20px;
+}
+
+.teksti {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.logokuva {
+    background-image: url('logo.png');
+}
+
+.logokuva:hover {
+    background-image: url('logo3.png');
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .background-image-1, .background-image-2, .background-image-3 {
+      background-attachment: scroll;
+    }
+
+
+
